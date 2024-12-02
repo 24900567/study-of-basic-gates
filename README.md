@@ -64,29 +64,28 @@ Y= A⊕B
 
 **PROGRAM**
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
-module EXP_1(a,b,f1,f2,f3,f4,f5,f6,f7);
+module logicgates(a,b,c,d,e);
 input a,b;
-output f1,f2,f3,f4,f5,f6,f7;
-assign f1=a&b;
-assign f2=a|b;
-assign f3=~a;
-assign f4=~f1;
-assign f5=~f2;
-assign f6=a^b;
-assign f7=~(a^b);
+output c,d,e;
+and (c,a,b);
+or(d,a,b);
+xor(e,a,b);
+//nand(x,a,b);
+//nor(y,a,b);
+//xnor(z,a,b);
 endmodule
- Developed by: RegisterNumber: 24900567
+Register Number 24900567
+Name Dhinesh.S
  
 **Logic symbol & Truthtable**
-![WhatsApp Image 2024-10-28 at 13 49 47_670fd740](https://github.com/user-attachments/assets/2061cacb-9447-4c8d-a0af-e0cea044fbe2)
+![WhatsApp Image 2024-12-02 at 09 05 18_bc08d87a](https://github.com/user-attachments/assets/db317c32-2846-4276-b3c9-7a41b1a0d9e3)
 
 **RTL realization Output:** 
-![EXP_1](https://github.com/user-attachments/assets/8b5eea50-b790-4dc2-ab99-b60c3f4b2c6d)** 
-
+![Screenshot 2024-12-02 084943](https://github.com/user-attachments/assets/9cd1dede-865a-4f08-8cea-476e2404fb3e)
 **RTL**
+![Screenshot 2024-12-02 085214](https://github.com/user-attachments/assets/d34174fa-7fa8-4c17-bd15-1b8524512b90)
 
-![Wave form](https://github.com/user-attachments/assets/899acf46-e073-46fd-8499-8ebd1ab04049)**
+
 **Result:**
 
 Thus the basic logic gates are studied and their truth tables are verified**
